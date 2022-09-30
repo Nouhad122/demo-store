@@ -135,28 +135,28 @@ function checkFocus(){
 }
    function onImagesClick(){
     image1.onclick = function(){
-        mainImage.src = '../images/image-product-1.png';
+        mainImage.src = '../images/image-product-1.PNG';
         image1.style.border = 'solid 4px orange';
         image2.style.border = 'solid 4px transparent';
         image3.style.border = 'solid 4px transparent';
         image4.style.border = 'solid 4px transparent';
      }
 image2.onclick = function(){
-   mainImage.src = '../images/image-product-2.png';
+   mainImage.src = '../images/image-product-2.PNG';
    image2.style.border = 'solid 4px orange';
    image1.style.border = 'solid 4px transparent';
    image3.style.border = 'solid 4px transparent';
    image4.style.border = 'solid 4px transparent';
 }
 image3.onclick = function(){
-    mainImage.src = '../images/image-product-3.png';
+    mainImage.src = '../images/image-product-3.PNG';
     image3.style.border = 'solid 4px orange';
     image1.style.border = 'solid 4px transparent';
     image2.style.border = 'solid 4px transparent';
     image4.style.border = 'solid 4px transparent';
  }
  image4.onclick = function(){
-    mainImage.src = '../images/image-product-4.png';
+    mainImage.src = '../images/image-product-4.PNG';
     image4.style.border = 'solid 4px orange';
     image1.style.border = 'solid 4px transparent';
     image2.style.border = 'solid 4px transparent';
@@ -167,24 +167,24 @@ image3.onclick = function(){
 
    function onImagesClickIn(){
     image1In.onclick = function(){
-        mainImageIn.src = '../images/image-product-1.png';
+        mainImageIn.src = '../images/image-product-1.PNG';
      }
 image2In.onclick = function(){
-   mainImageIn.src = '../images/image-product-2.png';
+   mainImageIn.src = '../images/image-product-2.PNG';
 }
 image3In.onclick = function(){
-    mainImageIn.src = '../images/image-product-3.png';
+    mainImageIn.src = '../images/image-product-3.PNG';
  }
  image4In.onclick = function(){
-    mainImageIn.src = '../images/image-product-4.png';
+    mainImageIn.src = '../images/image-product-4.PNG';
  }
 }
        
    const images = [
-    '../images/image-product-1.png',
-    '../images/image-product-2.png',
-    '../images/image-product-3.png',
-    '../images/image-product-4.png'
+    '../images/image-product-1.PNG',
+    '../images/image-product-2.PNG',
+    '../images/image-product-3.PNG',
+    '../images/image-product-4.PNG'
    ];
 
    const firstImage = 0;
@@ -208,10 +208,10 @@ image3In.onclick = function(){
    });
 
    const imagesIn = [
-    '../images/image-product-1.png',
-    '../images/image-product-2.png',
-    '../images/image-product-3.png',
-    '../images/image-product-4.png'
+    '../images/image-product-1.PNG',
+    '../images/image-product-2.PNG',
+    '../images/image-product-3.PNG',
+    '../images/image-product-4.PNG'
    ];
 
    const firstImageIn = 0;
