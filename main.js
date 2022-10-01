@@ -135,28 +135,28 @@ function checkFocus(){
 }
    function onImagesClick(){
     image1.onclick = function(){
-        mainImage.src = '/images/image-product-1.PNG';
+        mainImage.src = 'images/prod1.png';
         image1.style.border = 'solid 4px orange';
         image2.style.border = 'solid 4px transparent';
         image3.style.border = 'solid 4px transparent';
         image4.style.border = 'solid 4px transparent';
      }
 image2.onclick = function(){
-   mainImage.src = '/images/image-product-2.PNG';
+   mainImage.src = 'images/prod2.png';
    image2.style.border = 'solid 4px orange';
    image1.style.border = 'solid 4px transparent';
    image3.style.border = 'solid 4px transparent';
    image4.style.border = 'solid 4px transparent';
 }
 image3.onclick = function(){
-    mainImage.src = '/images/image-product-3.PNG';
+    mainImage.src = 'images/prod3.png';
     image3.style.border = 'solid 4px orange';
     image1.style.border = 'solid 4px transparent';
     image2.style.border = 'solid 4px transparent';
     image4.style.border = 'solid 4px transparent';
  }
  image4.onclick = function(){
-    mainImage.src = '/images/image-product-4.PNG';
+    mainImage.src = 'images/prod4.png';
     image4.style.border = 'solid 4px orange';
     image1.style.border = 'solid 4px transparent';
     image2.style.border = 'solid 4px transparent';
@@ -167,22 +167,22 @@ image3.onclick = function(){
 
    function onImagesClickIn(){
     image1In.onclick = function(){
-        mainImageIn.src = '/images/image-product-1.PNG';
+        mainImageIn.src = 'images/prod1.png';
      }
 image2In.onclick = function(){
-   mainImageIn.src = '/images/image-product-2.PNG';
+   mainImageIn.src = 'images/prod2.png';
 }
 image3In.onclick = function(){
-    mainImageIn.src = '/images/image-product-3.PNG';
+    mainImageIn.src = 'images/prod3.png';
  }
  image4In.onclick = function(){
-    mainImageIn.src = '/images/image-product-4.PNG';
+    mainImageIn.src = 'images/prod4.png';
  }
 }
        
    const images = [
-    '/images/image-product-1.PNG',
-    '/images/image-product-2.PNG',
+    'images/prod1.png',
+    'images/prod1.png',
     '/images/image-product-3.PNG',
     '/images/image-product-4.PNG'
    ];
@@ -208,10 +208,10 @@ image3In.onclick = function(){
    });
 
    const imagesIn = [
-    '/images/image-product-1.PNG',
-    '/images/image-product-2.PNG',
-    '/images/image-product-3.PNG',
-    '/images/image-product-4.PNG'
+    'images/prod1.png',
+    'images/prod2.png',
+    'images/prod3.png',
+    'images/prod4.png'
    ];
 
    const firstImageIn = 0;
