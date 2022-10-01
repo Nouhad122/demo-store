@@ -182,9 +182,9 @@ image3In.onclick = function(){
        
    const images = [
     'images/prod1.png',
-    'images/prod1.png',
-    '/images/image-product-3.PNG',
-    '/images/image-product-4.PNG'
+    'images/prod2.png',
+    'images/prod3.png',
+    'images/prod4.png'
    ];
 
    const firstImage = 0;
